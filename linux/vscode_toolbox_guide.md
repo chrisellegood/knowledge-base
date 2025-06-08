@@ -79,6 +79,9 @@ Save and exit (`Ctrl+O`, `Enter`, `Ctrl+X`).
 ```bash
 chmod +x ~/.local/share/applications/code-toolbox.desktop
 update-desktop-database ~/.local/share/applications
+
+sudo dnf install desktop-file-utils
+(if missing)
 ```
 
 ---
